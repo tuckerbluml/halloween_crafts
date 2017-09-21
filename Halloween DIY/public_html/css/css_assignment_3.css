@@ -25,7 +25,7 @@ nav li a{
 }
 
 nav li a:hover {
-	background-color: #111;
+	background-color: #33171A;
 }
 
 h1{
@@ -33,4 +33,18 @@ h1{
 	font-family: arial, sans-serif;
 	font-size: 50px;
 	text-align: center;
+}
+
+#logo{
+	display: block; margin:0px 0px 15px 15px;
+	float: right;
+	width: 150px;
+	height: 150px;
+	padding: none;
+	}
+
+#subtitle{
+	text-align: center;
+	font-size: 20px;
+	font-family: arial, sans-serif;
 }
