@@ -31,5 +31,6 @@ nav li a:hover {
 h1{
 	color: #652D34;
 	font-family: arial, sans-serif;
-	font-size: 40px;
+	font-size: 50px;
+	text-align: center;
 }
