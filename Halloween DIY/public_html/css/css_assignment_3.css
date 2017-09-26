@@ -40,7 +40,7 @@ h1{
 	float: right;
 	width: 150px;
 	height: 150px;
-	padding: none;
+	padding: 0px;
 	}
 
 #subtitle{
@@ -119,6 +119,11 @@ form{
 	padding: 15px;
 	text-align: center;
 	font-family: arial, sans-serif;
+}
+
+input{
+	border-color: #652D34;
+	border-style: inset;
 }
 
 ul li, ol{
