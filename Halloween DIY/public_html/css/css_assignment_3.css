@@ -81,7 +81,7 @@ div.desc {
     font-family: arial, sans-serif;
 }
 
-h4, h5, h6 {
+h3, h4, h5, h6 {
 	font-family: arial, sans-serif;
 }
 
@@ -118,4 +118,9 @@ table{
 form{
 	padding: 15px;
 	text-align: center;
+	font-family: arial, sans-serif;
+}
+
+ul li, ol{
+	font-family: arial, sans-serif;
 }
