@@ -81,10 +81,37 @@ div.desc {
     font-family: arial, sans-serif;
 }
 
-h5 {
+h4, h5, h6 {
 	font-family: arial, sans-serif;
 }
 
 p{
 	font-family: arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table, th, td {
+   border: 1px solid black;
+   font-family: arial, sans-serif;
+   font-size: 30px
+}
+
+th{
+	font-size: 40px;
+	text-align: center;
+}
+
+td{
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+table{
+	margin: auto;
+	
 }
