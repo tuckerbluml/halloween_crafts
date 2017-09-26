@@ -113,5 +113,9 @@ td{
 
 table{
 	margin: auto;
-	
+}
+
+form{
+	padding: 15px;
+	text-align: center;
 }
