@@ -91,11 +91,25 @@ header {color:red;}
 </div>
 <!-- Changed header font to 4 becuase 6 was too small. -->
 <h4 class="col-xs-12">To recieve e-mails on our weekly crafts, please enter your name and e-mail address below.</h4>
-<!-- Put this here to explain why we don't have any fieldsets for email. For now -->
-<h6 class="col-xs-12">We're sorry, but our email service is currently down, please check back again soon </h6>
 
+<form>
+<article class="col-xs-4">
+	<div class="form-group">
+    <label for="name">Name:</label>
+    <input type="name" class="form-control" id="name">
+  </div>
+  </article>
+  <article class="col-xs-4">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  </article>
+  <article class="col-xs-6">
+  <button type="submit" class="btn btn-default">Submit</button>
+  </article>
+</form>
 
-<!-- This is where our placeholder for name and e-mail will go -->
 </div>
 <!-- Never put in end tag for div -->
 
